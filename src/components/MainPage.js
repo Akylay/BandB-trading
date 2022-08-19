@@ -1,5 +1,4 @@
 import React from "react"
-import Featured from "./Featured";
 import Hero from "./Hero";
 import Course from "./Course";
 import Footer from "./Footer";
@@ -10,12 +9,11 @@ import Faq from "./Faq";
 const MainPage = () => {
     return (
         <main>
-            {<Hero/>}
-            {<About/>}
-            {< Featured/>}
-            {<Course/>}
-            {<Faq/>}
-            {<Contacts/>}
+            <Hero/>
+            <About/>
+            <Course/>
+            <Faq/>
+            <Contacts/>
             <Footer/>
         </main>
     )

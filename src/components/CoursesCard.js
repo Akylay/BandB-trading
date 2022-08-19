@@ -28,7 +28,7 @@ const CoursesCard = ({title, price, info1, info2, info3, info4, info5}) => {
                 </button>
             </div>
 
-            {/*<CoursesPopUp active={popupActive} setActive={setPopupActive}/>*/}
+            <CoursesPopUp active={popupActive} setActive={setPopupActive}/>
         </div>
     )
 }

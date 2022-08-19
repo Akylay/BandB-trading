@@ -1,6 +1,8 @@
 import React from "react"
 import logo from "../assets/images/logo.jpg"
-import {Link, animateScroll as scroll} from "react-scroll";
+import {Link} from "react-scroll";
+import Navbar from "./Navbar";
+
 
 const Header = () => {
     return (
@@ -15,6 +17,11 @@ const Header = () => {
                     <Link to="contacts" className="header__link" activeClass="active">Контакты</Link>
                     <Link to="faq" className="header__link" activeClass="active">FAQ</Link>
                 </div>
+
+
+                <Navbar/>
+
+
             </div>
         </header>
     )

@@ -5,22 +5,17 @@ const CoursesPopUp = ({active, setActive,}) => {
         <div>
             <div className={active ? "pop-up__section active" : "pop-up__section"} onClick={() => setActive(false)}>
                 <div className="pop-up" onClick={e => e.stopPropagation()}>
-                    <h2 className="pop-up__title">Содержание курса</h2>
-                    <div className="pop-up__content">
-                        <p> 1. Введение в трейдинг</p>
-                        <p> 2. Аспекты финансового планирования для трейдинга</p>
-                        <p> 3. Выбор стратегии по уровню риска</p>
-                        <p> 4. Инструменты для трейдинга</p>
-                        <p> 5. Правила трейдинга</p>
-                        <p> 6. Техника безопасности при использовании заемных средств</p>
-                        <p> 7. Работа с биржевой информацией</p>
-                        <p> 8. Фундаментальный анализ</p>
-                        <p> 9. Новостной анализ</p>
-                        <p> 10. Классический технический анализ</p>
-                        <p> 11. Анализ технических индикаторов рынка</p>
-                        <p> 12. Практика торговли</p>
-                        <p> 13. Риск-менеджмент</p>
-                        <p> 14. Сочетание разных методов анализа для эффективной торговли</p>
+                    <h2 className="pop-up__title">Чтобы узнать подробнее о курсе, напишите нам на WhatsApp, наш специалист
+                        ответит на любые ваши вопросы или переходите по ссылке на телеграмм
+                        канал </h2>
+                    <div className="pop-up__buttons d-flex justify-between">
+                        <a href="https://skobelkin.ru/whatsapp/79991782779?text=Здравствуйте!+У+меня+есть+вопрос)" target="_blank">
+                            <button className="pop-up__btn">WhatsApp</button>
+                        </a>
+                        <a href="https://web.telegram.org/z/#-1719659264" target="_blank">
+                            <button className="pop-up__btn">Телеграмм</button>
+                        </a>
+
                     </div>
                 </div>
 

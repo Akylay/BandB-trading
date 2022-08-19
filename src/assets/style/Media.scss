@@ -1,0 +1,660 @@
+@media (max-width: 1326px) {
+  .container {
+    max-width: 1190px;
+  }
+  .course__info {
+    width: 280px;
+  }
+  .contacts__left_info {
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .course__info_content {
+    width: 275px;
+  }
+}
+
+@media (max-width: 1242px) {
+  .container {
+    max-width: 1100px;
+  }
+  .hero__desc {
+    width: 550px;
+  }
+  .course__img {
+    width: 230px;
+    height: 200px;
+  }
+  .faq .container {
+    max-width: 1100px;
+  }
+  .contacts .container {
+    max-width: 1000px;
+  }
+  .request__input {
+    width: 480px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .container {
+    max-width: 1020px;
+  }
+  .course__img {
+    display: none;
+  }
+  .course__info {
+    width: 470px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .container {
+    max-width: 1000px;
+  }
+  .faq .container {
+    max-width: 1000px;
+  }
+  .contacts .container {
+    max-width: 910px;
+  }
+  .request__input {
+    width: 395px;
+  }
+  .hero__desc {
+    width: 480px;
+  }
+  .hero__img {
+    height: 390px;
+  }
+  .hero__btn {
+    width: 330px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .container {
+    max-width: 920px;
+  }
+  .courses__card {
+    width: 350px;
+    height: 585px;
+
+    &_btn {
+      width: 310px;
+    }
+
+    &_price::before {
+      width: 280px;
+    }
+  }
+
+  .course__info {
+    width: 430px;
+  }
+
+  .faq {
+    & .container {
+      max-width: 910px;
+    }
+
+    &__content {
+      width: 790px;
+    }
+  }
+  .contacts .container {
+    max-width: 810px;
+  }
+  .request__input {
+    width: 300px;
+  }
+}
+
+@media (max-width: 975px) {
+  .container {
+    max-width: 860px;
+  }
+  .header__link {
+    margin-left: 70px;
+  }
+  .hero__img {
+    display: none;
+  }
+  .hero__desc {
+    width: 580px;
+  }
+  .course__info {
+    width: 340px;
+  }
+  .faq .container {
+    max-width: 850px;
+  }
+  .contacts .container {
+    max-width: 760px;
+  }
+  .request__input {
+    width: 220px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 750px;
+  }
+  .courses__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .courses__card {
+    width: 490px;
+    height: 470px;
+    margin-bottom: 30px;
+
+    &_btn {
+      width: 400px;
+      margin: 45px auto;
+    }
+
+    &_info {
+      margin-top: 30px;
+    }
+
+    &_price::before {
+      width: 416px;
+      top: 72px;
+    }
+  }
+
+  .faq .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .faq__content {
+    width: 720px;
+    margin-top: 40px;
+  }
+
+  .contacts .container {
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts__text {
+    text-align: center;
+  }
+
+  .request {
+    margin-top: 30px;
+
+    &__input {
+      width: 279px;
+    }
+
+    &__btn {
+      margin-left: 30px;
+    }
+  }
+  .email__input {
+    margin-left: 30px;
+  }
+
+}
+
+@media (max-width: 870px) {
+  .faq .container {
+    max-width: 0;
+  }
+  .faq__title {
+    width: 455px;
+  }
+}
+
+@media (max-width: 781px) {
+  .container {
+    max-width: 640px;
+  }
+
+  .form {
+    width: 300px;
+  }
+
+  .form__input {
+    width: 280px;
+  }
+
+  .pop-up__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .pop-up {
+    width: 300px;
+  }
+
+  .courses__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .course__info_content {
+    width: 600px;
+
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+  }
+
+  .contacts__left_info {
+    margin-right: 0;
+  }
+
+  .faq__content {
+    width: 616px;
+  }
+  .contacts {
+    .container {
+      max-width: 516px;
+    }
+
+    &__left_info {
+      margin-top: 7px;
+    }
+  }
+
+  .email__input {
+    margin-left: 0;
+  }
+
+  .request__input {
+    width: 490px;
+  }
+  .request__btn {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 685px) {
+  .container {
+    max-width: 520px;
+  }
+  .header__link {
+    margin-left: 30px;
+  }
+  .hero__desc {
+    width: 520px;
+  }
+  .faq__content {
+    width: 516px;
+  }
+  .contacts .container {
+    max-width: 426px;
+  }
+
+
+  .request__input {
+    width: 415px;
+  }
+}
+
+@media (max-width: 633px) {
+  .course__info_content {
+    width: 450px;
+  }
+}
+
+@media (max-width: 590px) {
+  .container {
+    max-width: 470px;
+  }
+  .hero {
+    &__title {
+      font-size: 46px;
+    }
+
+    &__desc {
+      width: 440px;
+    }
+
+    &__btn {
+      width: 270px;
+      height: 60px;
+    }
+  }
+  .section__title {
+    font-size: 35px;
+    margin: 40px 0;
+  }
+  .about__interview_video {
+    width: 390px;
+    height: 230px;
+  }
+  .courses__card {
+    width: 340px;
+
+    &_info {
+      margin-top: 30px;
+    }
+
+    &_price {
+      font-size: 40px;
+
+      &::before {
+        width: 265px;
+      }
+    }
+
+    &_btn {
+      width: 300px;
+      margin: 20px auto;
+    }
+  }
+
+  .course__info_content {
+    width: 400px;
+  }
+
+  .skills__desc {
+    font-size: 19px;
+    line-height: 150%;
+  }
+
+  .faq__content {
+    width: 456px;
+  }
+  .contacts .container {
+    max-width: 366px;
+  }
+
+  .request__input {
+    width: 365px;
+  }
+
+  .contacts__text {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 515px) {
+  .container {
+    max-width: 350px;
+  }
+  .header {
+    &__logo {
+      width: 71px;
+      height: 71px;
+    }
+
+    &__nav {
+      display: none;
+    }
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .hero {
+    padding-top: 210px;
+
+    &__title {
+      font-size: 39px;
+    }
+
+    &__desc {
+      width: 330px;
+    }
+  }
+
+  .section__title {
+    font-size: 30px;
+  }
+
+  .about {
+    &__content {
+      font-size: 16px;
+    }
+
+    &__desc {
+      font-size: 16px;
+    }
+
+    &__interview_video {
+      width: 340px;
+      height: 210px;
+    }
+  }
+
+  .skills {
+    padding: 25px;
+
+    &__desc {
+      font-size: 16px;
+
+      &:not(:first-child) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .faq {
+    &__title {
+      width: 390px;
+      text-align: center;
+    }
+
+    &__content {
+      width: 390px;
+    }
+
+    &__info {
+      &_title {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .contacts .container {
+    max-width: 336px;
+    padding: 30px;
+  }
+
+  .request__input {
+    width: 326px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero {
+    padding-top: 165px;
+  }
+
+  .courses__card {
+    width: 300px;
+    padding: 20px;
+    height: 452px;
+
+    &_info p:not(:first-child) {
+      margin-top: 5px;
+    }
+
+    &_btn {
+      width: 250px;
+    }
+  }
+
+  .course__info_content {
+    width: 310px;
+  }
+}
+
+@media (max-width: 420px) {
+  .faq__content {
+    width: 335px;
+  }
+
+  .contacts .container {
+    max-width: 285px;
+  }
+
+  .request__input {
+    width: 277px;
+  }
+
+  .pop-up {
+    width: 240px;
+
+    &__title {
+      font-size: 17px;
+    }
+  }
+
+  .form {
+    width: 233px;
+
+    &__input {
+      width: 215px;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    max-width: 310px;
+  }
+
+  .hero__btn {
+    width: 211px;
+    height: 53px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+  .about__interview_video {
+    width: 290px;
+    height: 190px;
+  }
+
+  .skills {
+    padding: 30px 5px;
+
+    &__desc {
+      line-height: initial;
+    }
+  }
+
+  .faq__title {
+    width: 260px;
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .container {
+    max-width: 265px;
+  }
+
+  .hero {
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__desc {
+      width: 260px;
+      font-size: 16px;
+    }
+  }
+
+  .section__title {
+    font-size: 28px;
+  }
+
+  .about__content {
+    padding: 20px;
+  }
+
+  .courses__card {
+    width: 230px;
+
+    &_title {
+      font-size: 30px;
+    }
+
+    &_price {
+      font-size: 35px;
+
+      &::before {
+        width: 202px;
+        top: 60px;
+        left: 13px;
+      }
+    }
+
+    &_btn {
+      width: 215px;
+      margin: 30px auto;
+    }
+  }
+
+  .course__info_content {
+    width: 260px;
+  }
+
+  .faq {
+
+    &__content {
+      width: 290px;
+    }
+  }
+
+  .contacts {
+
+    & .container {
+      max-width: 245px;
+      padding: 20px;
+    }
+
+    &__text {
+      font-size: 19px;
+    }
+  }
+
+  .request__input {
+    width: 235px;
+  }
+
+  .pop-up {
+    width: 195px;
+  }
+
+  .form {
+    width: 215px;
+    padding: 20px 25px;
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__desc {
+      margin-bottom: 25px;
+    }
+
+    &__input {
+      width: 200px;
+    }
+
+    &__btn {
+      width: 215px;
+    }
+  }
+}

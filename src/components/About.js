@@ -3,7 +3,7 @@ import React from "react"
 
 const About = () => {
     const tick = <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="5" cy="5" r="5" fill="#9799CE"/>
+        <circle cx="5" cy="5" r="5" fill="#fff"/>
     </svg>
     return (
         <div className="about" id="about">
@@ -26,7 +26,7 @@ const About = () => {
                 <div className="about__interview d-flex flex-column align-center">
                     <p className="about__interview_title">Об авторах курса</p>
                     <div className="about__interview_video">
-                        <iframe width="560" height="315"
+                        <iframe className="about__interview_video"
                                 src="https://www.youtube.com/embed/Wa1SabwYW2Q?controls=0&amp;start=3"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

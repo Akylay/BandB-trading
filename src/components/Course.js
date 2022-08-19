@@ -1,6 +1,6 @@
 import React from "react";
 import CoursesCard from "./CoursesCard";
-import courseImg1 from "../assets/images/course.img1.jpg"
+import courseImg1 from "../assets/images/course.img1.webp"
 import courseImg2 from "../assets/images/course.img2.jpg"
 import CoursesInfo from "./CoursesInfo";
 import Skills from "./Skills";
@@ -10,7 +10,7 @@ const Course = () => {
         <div className="course" id="course">
             <div className="container">
                 <h1 className="section__title">Наши курсы</h1>
-                <div className="d-flex justify-between">
+                <div className="courses__cards d-flex justify-between">
                     <CoursesCard
                         title="Акции"
                         price="300$"
@@ -31,7 +31,7 @@ const Course = () => {
                     />
                 </div>
                 <h1 className="section__title">Кому подойдёт этот курс</h1>
-                <div className="d-flex justify-between">
+                <div className="courses__info d-flex justify-between">
                     <CoursesInfo
                         img={courseImg1}
                         title="Начинающим трейдерам"

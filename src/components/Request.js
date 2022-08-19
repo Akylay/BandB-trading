@@ -52,7 +52,7 @@ const Request = () => {
                         id="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="request__input"
+                        className="request__input email__input"
                         type="email"
                         placeholder="Электронная почта"/>
                 </label>
