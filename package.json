@@ -46,7 +46,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/Akylay/B-Btrading.git",
+
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }

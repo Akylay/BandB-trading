@@ -9,7 +9,7 @@ const Navbar = () => {
         to: "course"
     }, {value: "Контакты", to: "contacts"}, {value: "FAQ", to: "faq"},]
     return (
-        <div>
+        <div className="hamb">
             <div className="navbar">
                 <div className="burger">
                     <div className="burger__btn" onClick={() => setMenuActive(!menuActive)}>
