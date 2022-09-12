@@ -3,8 +3,6 @@ import "./assets/style/Media.scss"
 import Header from "./components/Header";
 import MainPage from "./components/MainPage";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import About from "./components/About";
-import Form from "./components/Form";
 
 const App = () =>{
   return (
@@ -12,8 +10,6 @@ const App = () =>{
         <Header />
         <Routes>
             <Route path="/" element={<MainPage />}/>
-            <Route path="/about" element={<About/>}/>
-            <Route path="/register" element={<Form/>}/>
         </Routes>
     </Router>
   );
